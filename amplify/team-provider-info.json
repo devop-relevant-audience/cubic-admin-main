@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cubicadmin-dev-e16e9-authRole",
+      "UnauthRoleArn": "arn:aws:iam::950378621245:role/amplify-cubicadmin-dev-e16e9-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::950378621245:role/amplify-cubicadmin-dev-e16e9-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-cubicadmin-dev-e16e9-deployment",
+      "UnauthRoleName": "amplify-cubicadmin-dev-e16e9-unauthRole",
+      "StackName": "amplify-cubicadmin-dev-e16e9",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:950378621245:stack/amplify-cubicadmin-dev-e16e9/5b96da40-bc3b-11ef-96a7-025dee01f089",
+      "AmplifyAppId": "d2xst3df3gmezw"
+    },
+    "categories": {
+      "function": {
+        "cubicadmin00c3abbe": {
+          "deploymentBucketName": "amplify-cubicadmin-dev-e16e9-deployment",
+          "s3Key": "amplify-builds/cubicadmin00c3abbe-7166486b374833674156-build.zip"
+        }
+      },
+      "auth": {
+        "cubicadminf4c984d7": {}
+      },
+      "api": {
+        "cubicapi": {}
+      },
+      "storage": {
+        "s343b20d82": {}
+      }
+    }
+  }
+}

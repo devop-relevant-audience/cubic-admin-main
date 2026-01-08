@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/api": {
+      "name": "/api",
+      "lambdaFunction": "cubicadmin00c3abbe",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

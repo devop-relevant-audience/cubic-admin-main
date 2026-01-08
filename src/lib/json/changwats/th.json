@@ -1,0 +1,544 @@
+{
+  "th": {
+    "changwats": [
+      {
+        "pid": "10",
+        "name": "กรุงเทพมหานคร",
+        "latitude": "13.72917",
+        "longitude": "100.52389",
+        "regions_code": "4"
+      },
+      {
+        "pid": "11",
+        "name": "สมุทรปราการ",
+        "latitude": "13.59556",
+        "longitude": "100.60722",
+        "regions_code": "4"
+      },
+      {
+        "pid": "12",
+        "name": "นนทบุรี",
+        "latitude": "13.85083",
+        "longitude": "100.52222",
+        "regions_code": "4"
+      },
+      {
+        "pid": "13",
+        "name": "ปทุมธานี",
+        "latitude": "14.05",
+        "longitude": "100.48333",
+        "regions_code": "4"
+      },
+      {
+        "pid": "14",
+        "name": "พระนครศรีอยุธยา",
+        "latitude": "14.35361",
+        "longitude": "100.56917",
+        "regions_code": "4"
+      },
+      {
+        "pid": "15",
+        "name": "อ่างทอง",
+        "latitude": "14.5925",
+        "longitude": "100.45722",
+        "regions_code": "4"
+      },
+      {
+        "pid": "16",
+        "name": "ลพบุรี",
+        "latitude": "14.8",
+        "longitude": "100.62694",
+        "regions_code": "4"
+      },
+      {
+        "pid": "17",
+        "name": "สิงห์บุรี",
+        "latitude": "14.89111",
+        "longitude": "100.40306",
+        "regions_code": "4"
+      },
+      {
+        "pid": "18",
+        "name": "ชัยนาท",
+        "latitude": "15.18722",
+        "longitude": "100.12833",
+        "regions_code": "4"
+      },
+      {
+        "pid": "19",
+        "name": "สระบุรี",
+        "latitude": "14.52861",
+        "longitude": "100.91139",
+        "regions_code": "4"
+      },
+      {
+        "pid": "20",
+        "name": "ชลบุรี",
+        "latitude": "13.36222",
+        "longitude": "100.98333",
+        "regions_code": "5"
+      },
+      {
+        "pid": "21",
+        "name": "ระยอง",
+        "latitude": "12.67417",
+        "longitude": "101.27889",
+        "regions_code": "5"
+      },
+      {
+        "pid": "22",
+        "name": "จันทบุรี",
+        "latitude": "12.60861",
+        "longitude": "102.10389",
+        "regions_code": "5"
+      },
+      {
+        "pid": "23",
+        "name": "ตราด",
+        "latitude": "12.3025",
+        "longitude": "102.5125",
+        "regions_code": "5"
+      },
+      {
+        "pid": "24",
+        "name": "ฉะเชิงเทรา",
+        "latitude": "13.69028",
+        "longitude": "101.07028",
+        "regions_code": "5"
+      },
+      {
+        "pid": "25",
+        "name": "ปราจีนบุรี",
+        "latitude": "14.05667",
+        "longitude": "101.37389",
+        "regions_code": "5"
+      },
+      {
+        "pid": "26",
+        "name": "นครนายก",
+        "latitude": "14.2069466",
+        "longitude": "101.21305",
+        "regions_code": "4"
+      },
+      {
+        "pid": "27",
+        "name": "สระแก้ว",
+        "latitude": "13.824038",
+        "longitude": "102.06458",
+        "regions_code": "5"
+      },
+      {
+        "pid": "30",
+        "name": "นครราชสีมา",
+        "latitude": "14.975",
+        "longitude": "102.1",
+        "regions_code": "2"
+      },
+      {
+        "pid": "31",
+        "name": "บุรีรัมย์",
+        "latitude": "14.99417",
+        "longitude": "103.10222",
+        "regions_code": "2"
+      },
+      {
+        "pid": "32",
+        "name": "สุรินทร์",
+        "latitude": "14.88",
+        "longitude": "103.49",
+        "regions_code": "2"
+      },
+      {
+        "pid": "33",
+        "name": "ศรีสะเกษ",
+        "latitude": "15.11444",
+        "longitude": "104.32028",
+        "regions_code": "2"
+      },
+      {
+        "pid": "34",
+        "name": "อุบลราชธานี",
+        "latitude": "15.22806",
+        "longitude": "104.85944",
+        "regions_code": "2"
+      },
+      {
+        "pid": "35",
+        "name": "ยโสธร",
+        "latitude": "15.79722",
+        "longitude": "104.14306",
+        "regions_code": "2"
+      },
+      {
+        "pid": "36",
+        "name": "ชัยภูมิ",
+        "latitude": "15.80556",
+        "longitude": "102.03111",
+        "regions_code": "2"
+      },
+      {
+        "pid": "37",
+        "name": "อำนาจเจริญ",
+        "latitude": "15.85",
+        "longitude": "104.63333",
+        "regions_code": "2"
+      },
+      {
+        "pid": "38",
+        "name": "บึงกาฬ",
+        "latitude": "18.36091",
+        "longitude": "103.64644",
+        "regions_code": "2"
+      },
+      {
+        "pid": "39",
+        "name": "หนองบัวลำภู",
+        "latitude": "17.20417",
+        "longitude": "102.44444",
+        "regions_code": "2"
+      },
+      {
+        "pid": "40",
+        "name": "ขอนแก่น",
+        "latitude": "16.43889",
+        "longitude": "102.82861",
+        "regions_code": "2"
+      },
+      {
+        "pid": "41",
+        "name": "อุดรธานี",
+        "latitude": "17.53917",
+        "longitude": "102.78444",
+        "regions_code": "2"
+      },
+      {
+        "pid": "42",
+        "name": "เลย",
+        "latitude": "17.48528",
+        "longitude": "101.73028",
+        "regions_code": "2"
+      },
+      {
+        "pid": "43",
+        "name": "หนองคาย",
+        "latitude": "17.87444",
+        "longitude": "102.73833",
+        "regions_code": "2"
+      },
+      {
+        "pid": "44",
+        "name": "มหาสารคาม",
+        "latitude": "16.17722",
+        "longitude": "103.30083",
+        "regions_code": "2"
+      },
+      {
+        "pid": "45",
+        "name": "ร้อยเอ็ด",
+        "latitude": "16.05306",
+        "longitude": "103.65111",
+        "regions_code": "2"
+      },
+      {
+        "pid": "46",
+        "name": "กาฬสินธุ์",
+        "latitude": "16.43417",
+        "longitude": "103.50917",
+        "regions_code": "2"
+      },
+      {
+        "pid": "47",
+        "name": "สกลนคร",
+        "latitude": "17.15639",
+        "longitude": "104.14556",
+        "regions_code": "2"
+      },
+      {
+        "pid": "48",
+        "name": "นครพนม",
+        "latitude": "17.40694",
+        "longitude": "104.78083",
+        "regions_code": "2"
+      },
+      {
+        "pid": "49",
+        "name": "มุกดาหาร",
+        "latitude": "16.54306",
+        "longitude": "104.72278"
+      },
+      {
+        "pid": "50",
+        "name": "เชียงใหม่",
+        "latitude": "18.79028",
+        "longitude": "98.96056",
+        "regions_code": "1"
+      },
+      {
+        "pid": "51",
+        "name": "ลำพูน",
+        "latitude": "18.58639",
+        "longitude": "99.01194",
+        "regions_code": "1"
+      },
+      {
+        "pid": "52",
+        "name": "ลำปาง",
+        "latitude": "18.28611",
+        "longitude": "99.51306",
+        "regions_code": "1"
+      },
+      {
+        "pid": "53",
+        "name": "อุตรดิตถ์",
+        "latitude": "17.62306",
+        "longitude": "100.09583",
+        "regions_code": "1"
+      },
+      {
+        "pid": "54",
+        "name": "แพร่",
+        "latitude": "18.14528",
+        "longitude": "100.14194",
+        "regions_code": "1"
+      },
+      {
+        "pid": "55",
+        "name": "น่าน",
+        "latitude": "18.78333",
+        "longitude": "100.78333",
+        "regions_code": "1"
+      },
+      {
+        "pid": "56",
+        "name": "พะเยา",
+        "latitude": "19.16528",
+        "longitude": "99.90361",
+        "regions_code": "1"
+      },
+      {
+        "pid": "57",
+        "name": "เชียงราย",
+        "latitude": "19.90944",
+        "longitude": "99.8275",
+        "regions_code": "1"
+      },
+      {
+        "pid": "58",
+        "name": "แม่ฮ่องสอน",
+        "latitude": "19.30111",
+        "longitude": "97.97",
+        "regions_code": "1"
+      },
+      {
+        "pid": "60",
+        "name": "นครสวรรค์",
+        "latitude": "15.71333",
+        "longitude": "100.13528",
+        "regions_code": "4"
+      },
+      {
+        "pid": "61",
+        "name": "อุทัยธานี",
+        "latitude": "15.3835",
+        "longitude": "100.02455",
+        "regions_code": "4"
+      },
+      {
+        "pid": "62",
+        "name": "กำแพงเพชร",
+        "latitude": "16.48111",
+        "longitude": "99.52222",
+        "regions_code": "4"
+      },
+      {
+        "pid": "63",
+        "name": "ตาก",
+        "latitude": "16.89667",
+        "longitude": "99.01333",
+        "regions_code": "3"
+      },
+      {
+        "pid": "64",
+        "name": "สุโขทัย",
+        "latitude": "17.00583",
+        "longitude": "99.82639",
+        "regions_code": "4"
+      },
+      {
+        "pid": "65",
+        "name": "พิษณุโลก",
+        "latitude": "16.81583",
+        "longitude": "100.26361",
+        "regions_code": "4"
+      },
+      {
+        "pid": "66",
+        "name": "พิจิตร",
+        "latitude": "16.44306",
+        "longitude": "100.34667",
+        "regions_code": "4"
+      },
+      {
+        "pid": "67",
+        "name": "เพชรบูรณ์",
+        "latitude": "16.42417",
+        "longitude": "101.15472",
+        "regions_code": "4"
+      },
+      {
+        "pid": "70",
+        "name": "ราชบุรี",
+        "latitude": "13.53556",
+        "longitude": "99.81333",
+        "regions_code": "3"
+      },
+      {
+        "pid": "71",
+        "name": "กาญจนบุรี",
+        "latitude": "14.01944",
+        "longitude": "99.53111",
+        "regions_code": "3"
+      },
+      {
+        "pid": "72",
+        "name": "สุพรรณบุรี",
+        "latitude": "14.4675",
+        "longitude": "100.11694",
+        "regions_code": "4"
+      },
+      {
+        "pid": "73",
+        "name": "นครปฐม",
+        "latitude": "13.81556",
+        "longitude": "100.03722",
+        "regions_code": "4"
+      },
+      {
+        "pid": "74",
+        "name": "สมุทรสาคร",
+        "latitude": "13.54861",
+        "longitude": "100.2775",
+        "regions_code": "4"
+      },
+      {
+        "pid": "75",
+        "name": "สมุทรสงคราม",
+        "latitude": "13.41972",
+        "longitude": "100.00167",
+        "regions_code": "4"
+      },
+      {
+        "pid": "76",
+        "name": "เพชรบุรี",
+        "latitude": "13.11194",
+        "longitude": "99.94583",
+        "regions_code": "3"
+      },
+      {
+        "pid": "77",
+        "name": "ประจวบคีรีขันธ์",
+        "latitude": "11.81667",
+        "longitude": "99.8",
+        "regions_code": "3"
+      },
+      {
+        "pid": "80",
+        "name": "นครศรีธรรมราช",
+        "latitude": "8.43639",
+        "longitude": "99.96306",
+        "regions_code": "6"
+      },
+      {
+        "pid": "81",
+        "name": "กระบี่",
+        "latitude": "8.05917",
+        "longitude": "98.91889",
+        "regions_code": "6"
+      },
+      {
+        "pid": "82",
+        "name": "พังงา",
+        "latitude": "8.46444",
+        "longitude": "98.53167",
+        "regions_code": "6"
+      },
+      {
+        "pid": "83",
+        "name": "ภูเก็ต",
+        "latitude": "7.88",
+        "longitude": "98.3925",
+        "regions_code": "6"
+      },
+      {
+        "pid": "84",
+        "name": "สุราษฎร์ธานี",
+        "latitude": "9.13972",
+        "longitude": "99.33056",
+        "regions_code": "6"
+      },
+      {
+        "pid": "85",
+        "name": "ระนอง",
+        "latitude": "10.03917",
+        "longitude": "98.6125",
+        "regions_code": "6"
+      },
+      {
+        "pid": "86",
+        "name": "ชุมพร",
+        "latitude": "10.49389",
+        "longitude": "99.18",
+        "regions_code": "6"
+      },
+      {
+        "pid": "90",
+        "name": "สงขลา",
+        "latitude": "7.20611",
+        "longitude": "100.59667",
+        "regions_code": "6"
+      },
+      {
+        "pid": "91",
+        "name": "สตูล",
+        "latitude": "6.61472",
+        "longitude": "100.06806",
+        "regions_code": "6"
+      },
+      {
+        "pid": "92",
+        "name": "ตรัง",
+        "latitude": "7.5575",
+        "longitude": "99.61028",
+        "regions_code": "6"
+      },
+      {
+        "pid": "93",
+        "name": "พัทลุง",
+        "latitude": "7.61667",
+        "longitude": "100.08333",
+        "regions_code": "6"
+      },
+      {
+        "pid": "94",
+        "name": "ปัตตานี",
+        "latitude": "6.86778",
+        "longitude": "101.25",
+        "regions_code": "6"
+      },
+      {
+        "pid": "95",
+        "name": "ยะลา",
+        "latitude": "6.5425",
+        "longitude": "101.28306",
+        "regions_code": "6"
+      },
+      {
+        "pid": "96",
+        "name": "นราธิวาส",
+        "latitude": "6.42639",
+        "longitude": "101.81528",
+        "regions_code": "6"
+      }
+    ]
+  }
+}
