@@ -91,7 +91,7 @@ const Sidebar = ({ showSidebar, setShowSidebar }) => {
                     }}
                     className={` flex items-center cursor-pointer h-[54px] px-[13px] py-2   ${
                       isActive
-                        ? "text-cubic-yellow bg-cubic-gray "
+                        ? "text-gymx-blue bg-cubic-gray "
                         : "text-cubic-white hover:bg-cubic-gray duration-100 "
                     }`}
                   >
@@ -106,7 +106,7 @@ const Sidebar = ({ showSidebar, setShowSidebar }) => {
                       <div
                         className={cn(
                           "text-cubic-white text-[32px] font-normal ",
-                          isActive && "text-cubic-yellow"
+                          isActive && "text-gymx-blue"
                         )}
                       >
                         {menu.hover}

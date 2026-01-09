@@ -33,7 +33,7 @@ const CubicBannerForm = ({ bannerData, index, bannerForm, setBannerForm }) => {
     <div className="bg bg-cubic-gray2 w-full h-[456px] pt-[18px] px-[22px] space-y-4">
       <div className="flex justify-between items-center">
         <div className="flex space-x-2 items-center ">
-          <div className="text-cubic-yellow text-[32px] font-BebasNeue">{`#${
+          <div className="text-gymx-blue text-[32px] font-BebasNeue">{`#${
             index + 1
           }`}</div>
           <div className="text-cubic-white text-sm leading-tight ">{`Upload JPEG, mp4, PNG. (Videos must be under 50 MB.)`}</div>

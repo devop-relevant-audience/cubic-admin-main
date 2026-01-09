@@ -123,7 +123,7 @@ const ServiceForm = ({ form, setForm, onChangeInput, tagOption, setField }) => {
               </div>
             </div>
           </div>
-          <div className="col-span-full text-white text-base font-bold font-Inter border-b border-cubic-yellow pb-3 w-fit h-5 -mb-4">
+          <div className="col-span-full text-white text-base font-bold font-Inter border-b border-gymx-blue pb-3 w-fit h-5 -mb-4">
             Image
           </div>
           <UploadDisplayPhoto
@@ -149,7 +149,7 @@ const ServiceForm = ({ form, setForm, onChangeInput, tagOption, setField }) => {
 
       {/* Work out template */}
       <div className=" bg-cubic-gray2 w-full pb-11 pt-[25px] px-8  space-y-4">
-        <div className="text-center text-[#edff00] text-5xl font-normal font-BebasNeue">
+        <div className="text-center text-[#00aeef] text-5xl font-normal font-BebasNeue">
           workout template
         </div>
 
@@ -157,8 +157,8 @@ const ServiceForm = ({ form, setForm, onChangeInput, tagOption, setField }) => {
 
         <CubicHeadTitle
           title="HERO BANNER"
-          color="bg-cubic-yellow"
-          classNameText={"text-[32px] text-cubic-yellow"}
+          color="bg-gymx-blue"
+          classNameText={"text-[32px] text-gymx-blue"}
         />
 
         <div className="grid grid-cols-2 gap-8 mb-[56px]">
@@ -226,8 +226,8 @@ const ServiceForm = ({ form, setForm, onChangeInput, tagOption, setField }) => {
 
         <CubicHeadTitle
           title="Feature Section"
-          color="bg-cubic-yellow"
-          classNameText={"text-[32px] text-cubic-yellow"}
+          color="bg-gymx-blue"
+          classNameText={"text-[32px] text-gymx-blue"}
         />
 
         <div className="grid grid-cols-2 gap-8 mb-[56px]">
@@ -269,8 +269,8 @@ const ServiceForm = ({ form, setForm, onChangeInput, tagOption, setField }) => {
 
         <div className=" flex space-x-4">
           <div className="flex space-x-4  items-center ">
-            <div className="bg-cubic-yellow w-2 h-2 rounded-full"></div>
-            <div className="text-cubic-yellow  text-2xl">CLASSES</div>
+            <div className="bg-gymx-blue w-2 h-2 rounded-full"></div>
+            <div className="text-gymx-blue  text-2xl">CLASSES</div>
           </div>
           <div>
             <CubicCheckbox
@@ -328,8 +328,8 @@ const ServiceForm = ({ form, setForm, onChangeInput, tagOption, setField }) => {
 
         <CubicHeadTitle
           title="video section"
-          color="bg-cubic-yellow"
-          classNameText={"text-[32px] text-cubic-yellow"}
+          color="bg-gymx-blue"
+          classNameText={"text-[32px] text-gymx-blue"}
         />
 
         <div className="grid grid-cols-2 gap-8">
@@ -365,8 +365,8 @@ const ServiceForm = ({ form, setForm, onChangeInput, tagOption, setField }) => {
 
         <CubicHeadTitle
           title="Image Gallery "
-          color="bg-cubic-yellow"
-          classNameText={"text-[32px] text-cubic-yellow"}
+          color="bg-gymx-blue"
+          classNameText={"text-[32px] text-gymx-blue"}
         />
 
         <div className="grid grid-cols-3 gap-4">

@@ -44,7 +44,7 @@ const CubicEventTagDialog = ({}) => {
       <DialogTrigger className="p-0" asChild>
         <div className="flex items-center space-x-1">
           <SettingIcon />
-          <div className="text-cubic-yellow text-sm font-normal ">
+          <div className="text-gymx-blue text-sm font-normal ">
             setting tag
           </div>
         </div>
@@ -66,7 +66,7 @@ const CubicEventTagDialog = ({}) => {
             />
             <CubicButton
               overWriteClassName={"w-[160px]"}
-              isYellow
+              isBlue
               onClick={addTag}
               text="Add"
             />

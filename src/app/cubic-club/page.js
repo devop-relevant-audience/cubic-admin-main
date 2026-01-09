@@ -81,7 +81,7 @@ const ClubPage = () => {
                 width={375}
                 height={312}
               />
-              <div className="bg bg-cubic-yellow px-4 py-6 flex flex-col space-y-10">
+              <div className="bg bg-gymx-blue px-4 py-6 flex flex-col space-y-10">
                 <div>
                   <div className="text-[#0f0f0e] text-4xl font-normal font-BebasNeue uppercase leading-[32px]">
                     {club.location_name}

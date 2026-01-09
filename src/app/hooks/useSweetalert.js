@@ -139,9 +139,9 @@ const useSweetAlert = () => {
     //   reverseButtons: true,
     //   iconSrc: "/question.png",
     //   confirmButtonClass:
-    //     "bg bg-cubic-yellow  text-cubic-black px-4 py-2 text-2xl w-[124px] h-[44px] font-BebasNeue rounded-none",
+    //     "bg bg-gymx-blue  text-cubic-black px-4 py-2 text-2xl w-[124px] h-[44px] font-BebasNeue rounded-none",
     //   cancelButtonClass:
-    //     "swal-cancel-button bg-white border border-cubic-gray4 text-cubic-gray4 text-2xl  px-4 py-2  w-[124px] h-[44px] button-border font-BebasNeue rounded-none hover:border-cubic-yellow hover:text-cubic-yellow hover:bg-white",
+    //     "swal-cancel-button bg-white border border-cubic-gray4 text-cubic-gray4 text-2xl  px-4 py-2  w-[124px] h-[44px] button-border font-BebasNeue rounded-none hover:border-gymx-blue hover:text-gymx-blue hover:bg-white",
     //   callback: callbackFunc,
     // });
   };

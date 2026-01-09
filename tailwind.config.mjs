@@ -27,7 +27,7 @@ export default {
         "cubic-gray5": "#CBD5E1",
         "cubic-gray6": "#545454",
         "cubic-white": "#FFFFFF",
-        "cubic-yellow": "#EDFF00",
+        "gymx-blue": "#00aeef",
         "cubic-red": "#BF131A",
         "cubic-green": "#00FF00",
         "cubic-darkgreen": "#00A300",

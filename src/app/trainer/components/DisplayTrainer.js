@@ -50,13 +50,13 @@ const DisplayTrainer = forwardRef(
         }}
       >
         <div className=" font-BebasNeue">
-          <div className="text-cubic-yellow text-5xl">{service.name}</div>
-          <div className="text-cubic-yellow text-4xl line-clamp-2">
+          <div className="text-gymx-blue text-5xl">{service.name}</div>
+          <div className="text-gymx-blue text-4xl line-clamp-2">
             {service.position}
           </div>
         </div>
 
-        <div className="p-5 flex flex-col space-y-8 bg-cubic-yellow">
+        <div className="p-5 flex flex-col space-y-8 bg-gymx-blue">
           <div className="flex justify-between items-center">
             <div
               className="flex items-center cursor-pointer font-BebasNeue"

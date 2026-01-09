@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 const CubicButton = ({
   text = "",
   overWriteClassName,
-  isYellow = false,
+  isBlue = false,
   icon = "",
   onClick = () => {},
 }) => {
@@ -12,9 +12,9 @@ const CubicButton = ({
     <div
       className={cn(
         "flex items-center justify-center cursor-pointer w-[160px] h-[48px] space-x-2 font-BebasNeue text-2xl  group curso ",
-        isYellow
-          ? " bg bg-cubic-yellow "
-          : "  bg bg-blackborder border  border-cubic-yellow",
+        isBlue
+          ? " bg bg-gymx-blue "
+          : "  bg bg-blackborder border  border-gymx-blue",
 
         overWriteClassName
       )}
@@ -23,8 +23,8 @@ const CubicButton = ({
       <div>{icon}</div>
       <div
         className={cn(
-          "text-cubic-yellow",
-          isYellow && "text-cubic-black",
+          "text-gymx-blue",
+          isBlue && "text-cubic-black",
           "group-hover:scale-105 duration-200 transition-all"
         )}
       >
@@ -38,7 +38,7 @@ export const ClearButton = ({ text = "", onClick = () => {} }) => {
   return (
     <button
       onClick={onClick}
-      className="w-[81px] h-[21px] px-2.5 py-0.5 border border-[#cfcfcf] text-[#cfcfcf]  hover:border-cubic-yellow hover:text-cubic-yellow duration-300 flex-col justify-center items-center gap-2.5 inline-flex overflow-hidden"
+      className="w-[81px] h-[21px] px-2.5 py-0.5 border border-[#cfcfcf] text-[#cfcfcf]  hover:border-gymx-blue hover:text-gymx-blue duration-300 flex-col justify-center items-center gap-2.5 inline-flex overflow-hidden"
     >
       <div className="justify-center items-center gap-1 inline-flex">
         <div className="justify-center items-center gap-1 flex">

@@ -147,7 +147,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  background: #edff00;
+  background: #00aeef;
   color: #0f0f0e;
   font-size: 24px;
   font-style: normal;
@@ -156,7 +156,7 @@ body {
 }
 
 .confirm-button-class:hover {
-  background: #edff00;
+  background: #00aeef;
   color: #0f0f0e;
   font-size: 24px;
   font-style: normal;

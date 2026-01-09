@@ -56,7 +56,7 @@ export default function Home() {
         <Image
           width={400}
           height={400}
-          src={"/logo.png"}
+          src={"/logo.avif"}
           className=" mx-auto h-20 w-[306px] "
           alt="logoLogin"
         />
@@ -92,7 +92,7 @@ export default function Home() {
         </div>
         <CubicButton
           onClick={submitLogin}
-          isYellow
+          isBlue
           text="Login"
           overWriteClassName={" w-full"}
         />

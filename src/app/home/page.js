@@ -46,7 +46,7 @@ const HomePage = () => {
       )}
     >
       <div className="flex justify-between mb-[18px] w-full">
-        <div className="text-cubic-yellow text-5xl font-BebasNeue">HOME</div>
+        <div className="text-gymx-blue text-5xl font-BebasNeue">HOME</div>
         <div className="flex  space-x-4">
           {/* <div>
             <CubicButton text="CANCEL" onClick={() => router.push("/home")} />
@@ -54,7 +54,7 @@ const HomePage = () => {
           {/* <div>
             <CubicButton
               text="SAVE"
-              isYellow={true}
+              isBlue={true}
               onClick={() => {
                 seoService.onUpdateHeroBanner();
               }}

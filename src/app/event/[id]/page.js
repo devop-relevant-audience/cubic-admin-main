@@ -86,7 +86,7 @@ const EventIdPage = () => {
           <div>
             <CubicButton
               text="SAVE"
-              isYellow={true}
+              isBlue={true}
               onClick={() => {
                 onCreate();
               }}

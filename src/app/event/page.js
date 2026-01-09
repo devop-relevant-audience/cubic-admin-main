@@ -61,7 +61,7 @@ const EventPage = () => {
                 quality={100}
                 priority={true}
               />
-              <div className="bg bg-cubic-yellow p-6 flex flex-col font-BebasNeue">
+              <div className="bg bg-gymx-blue p-6 flex flex-col font-BebasNeue">
                 <div>
                   <div className="text-[#0f0f0e] text-[24px] font-normal  uppercase leading-[32px] h-[58px]">
                     {club.name}

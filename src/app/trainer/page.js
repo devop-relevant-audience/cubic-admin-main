@@ -154,8 +154,8 @@ const TrainerPage = () => {
               }}
             >
               <div className=" font-BebasNeue">
-                <div className="text-cubic-yellow text-5xl">{trainer.name}</div>
-                <div className="text-cubic-yellow text-4xl line-clamp-2">
+                <div className="text-gymx-blue text-5xl">{trainer.name}</div>
+                <div className="text-gymx-blue text-4xl line-clamp-2">
                   {trainer.position}
                 </div>
               </div>

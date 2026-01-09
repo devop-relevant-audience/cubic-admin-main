@@ -48,7 +48,7 @@ const DisplayService = forwardRef(
           />
         </div>
 
-        <div className="p-5 flex flex-col space-y-8 bg-cubic-yellow">
+        <div className="p-5 flex flex-col space-y-8 bg-gymx-blue">
           <div className="text-cubic-black text-4xl leading-[34px] font-BebasNeue h-[68px] line-clamp-2">
             {service.thumbnail_title}
           </div>
