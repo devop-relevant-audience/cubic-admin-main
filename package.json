@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "dev-api": "cd amplify/backend/function/cubicadmin00c3abbe/src && npm run start"
+    "dev-api": "cd amplify/backend/function/cubicadmin00c3abbe/src && npm run start",
+    "test:api": "node scripts/test-api.js"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.850.0",
@@ -28,6 +29,8 @@
     "lodash": "^4.17.21",
     "lucide-react": "^0.468.0",
     "luxon": "^3.6.1",
+    "mongoose": "^8.8.0",
+    "mongoose-lean-virtuals": "^0.9.1",
     "next": "15.1.11",
     "react": "^19.0.0",
     "react-awesome-reveal": "^4.3.1",
