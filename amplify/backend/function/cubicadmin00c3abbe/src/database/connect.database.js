@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const url = process.env.MONGODB_URI;
+const url = "mongodb+srv://devop:JExNwFyzBJ67xWxJgpvd@cubic.udixe22.mongodb.net/?appName=cubic"
   
 let connection;
 const connectDB = async () => {
