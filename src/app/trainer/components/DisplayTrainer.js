@@ -64,7 +64,7 @@ const DisplayTrainer = forwardRef(
                 router.push(`/trainer/${service.id}`);
               }}
             >
-              <div className="text-cubic-black  text-xl">Edit</div>
+              <div className="text-[#f8f8f8]  text-xl">Edit</div>
               <div>
                 <RightArrowIcon />
               </div>

@@ -11,7 +11,7 @@ import useExportCSV from "./hooks/useExport";
 
 const STYLE_BG_TABLE = "  rounded-[20px] px-[14px] py-[17px] space-y-2";
 const STYLE_HEAD_TABLE =
-  "flex bg-gymx-blue h-[50px] items-center rounded-[10px] text-2xl font-medium text-cubic-black px-[23px] py-[13px] font-BebasNeue ";
+  "flex bg-gymx-blue h-[50px] items-center rounded-[10px] text-2xl font-medium text-[#f8f8f8] px-[23px] py-[13px] font-BebasNeue ";
 const STYLE_ROWS_TABLE =
   "flex items-center h-14  bg-cubic-black  px-[20px] pt-[19px] pb-[18px]  cursor-pointer border-b border-cubic-white";
 

@@ -24,7 +24,7 @@ const CubicButton = ({
       <div
         className={cn(
           "text-gymx-blue",
-          isBlue && "text-cubic-black",
+          isBlue && "text-[#f8f8f8]",
           "group-hover:scale-105 duration-200 transition-all"
         )}
       >

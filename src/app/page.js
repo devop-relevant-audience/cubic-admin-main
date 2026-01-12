@@ -54,10 +54,11 @@ export default function Home() {
     >
       <div className=" w-full h-full   max-w-lg bg-cubic-black p-16 rounded-[30px] mx-auto flex flex-col items-center  ">
         <Image
-          width={400}
-          height={400}
+          fetchPriority="high"
+          width={200}
+          height={200}
           src={"/logo.avif"}
-          className=" mx-auto h-20 w-[306px] "
+          className=" mx-auto h-auto w-[200px] "
           alt="logoLogin"
         />
         <div className=" flex flex-col space-y-10 pt-20 pb-10 w-full ">

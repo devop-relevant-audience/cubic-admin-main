@@ -49,7 +49,7 @@ const DisplayService = forwardRef(
         </div>
 
         <div className="p-5 flex flex-col space-y-8 bg-gymx-blue">
-          <div className="text-cubic-black text-4xl leading-[34px] font-BebasNeue h-[68px] line-clamp-2">
+          <div className="text-[#f8f8f8] text-4xl leading-[34px] font-BebasNeue h-[68px] line-clamp-2">
             {service.thumbnail_title}
           </div>
           <div className="flex justify-between items-center">
@@ -59,7 +59,7 @@ const DisplayService = forwardRef(
                 router.push(`/service/${service.id}`);
               }}
             >
-              <div className="text-cubic-black  text-xl">Edit</div>
+              <div className="text-[#f8f8f8]  text-xl">Edit</div>
               <div>
                 <RightArrowIcon />
               </div>

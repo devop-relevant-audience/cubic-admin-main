@@ -13,7 +13,7 @@ const Pagination = ({ total, onPrev, onNext, currentPage, totalPage }) => {
           className={cn(
             currentPage === 1
               ? "cursor-not-allowed opacity-65 border border-slate-300 text-slate-300"
-              : "cursor-pointer hover:bg-seedlab-yellow duration-200 hover:bg-gymx-blue border border-gymx-blue text-gymx-blue   hover:text-black",
+              : "cursor-pointer hover:bg-seedlab-yellow duration-200 hover:bg-gymx-blue border border-gymx-blue text-gymx-blue   hover:text-[#f8f8f8]",
             "w-[160px] h-12 px-3 py-2    justify-center items-center gap-2.5 inline-flex  text-2xl font-normal font-BebasNeue leading-6 tracking-wide"
           )}
         >
@@ -24,7 +24,7 @@ const Pagination = ({ total, onPrev, onNext, currentPage, totalPage }) => {
           className={cn(
             currentPage === Math.ceil(total / 5) || currentPage === totalPage
               ? "cursor-not-allowed opacity-65 border border-slate-300 text-slate-300"
-              : "cursor-pointer hover:bg-seedlab-yellow duration-200 hover:bg-gymx-blue border border-gymx-blue text-gymx-blue   hover:text-black",
+              : "cursor-pointer hover:bg-seedlab-yellow duration-200 hover:bg-gymx-blue border border-gymx-blue text-gymx-blue   hover:text-[#f8f8f8]",
 
             "w-[160px] h-12 px-3 py-2   justify-center items-center gap-2.5 inline-flex  text-2xl font-normal font-BebasNeue leading-6 tracking-wide"
           )}

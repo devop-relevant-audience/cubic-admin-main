@@ -83,10 +83,10 @@ const ClubPage = () => {
               />
               <div className="bg bg-gymx-blue px-4 py-6 flex flex-col space-y-10">
                 <div>
-                  <div className="text-[#0f0f0e] text-4xl font-normal font-BebasNeue uppercase leading-[32px]">
+                  <div className="text-[#f8f8f8] text-4xl font-normal font-BebasNeue uppercase leading-[32px]">
                     {club.location_name}
                   </div>
-                  <div className=" pt-3 text-cubic-black text-base font-light font-Inter leading-tight">
+                  <div className=" pt-3 text-[#f8f8f8] text-base font-light font-Inter leading-tight">
                     {club.address}
                   </div>
                 </div>
@@ -108,7 +108,7 @@ const ClubPage = () => {
                     )}
                   >
                     <BlackShowersIcon />
-                    <div className="text-[#0f0f0e] text-xs font-black font-Inter leading-3">
+                    <div className="text-[#f8f8f8] text-xs font-black font-Inter leading-3">
                       Shower & Toiletries
                     </div>
                   </div>
@@ -119,7 +119,7 @@ const ClubPage = () => {
                     )}
                   >
                     <BlackLockerIcon />
-                    <div className="text-[#0f0f0e] text-xs font-black font-Inter leading-3">
+                    <div className="text-[#f8f8f8] text-xs font-black font-Inter leading-3">
                       Locker Room
                     </div>
                   </div>
@@ -130,7 +130,7 @@ const ClubPage = () => {
                     )}
                   >
                     <BlackWifiIcon />
-                    <div className="text-[#0f0f0e] text-xs font-black font-['Inter'] leading-3">
+                    <div className="text-[#f8f8f8] text-xs font-black font-['Inter'] leading-3">
                       Free WIFI
                     </div>
                   </div>
@@ -141,7 +141,7 @@ const ClubPage = () => {
                     )}
                   >
                     <TwoThunderCafeIcon />
-                    <div className="text-[#0f0f0e] text-xs font-black font-Inter leading-3">
+                    <div className="text-[#f8f8f8] text-xs font-black font-Inter leading-3">
                       Water station
                     </div>
                   </div>
@@ -154,7 +154,7 @@ const ClubPage = () => {
                     <div className="">
                       <BlackParkingIcon />
                     </div>
-                    <div className="text-[#0f0f0e] text-xs font-black font-Inter leading-3">
+                    <div className="text-[#f8f8f8] text-xs font-black font-Inter leading-3">
                       Parking
                     </div>
                   </div>
@@ -167,7 +167,7 @@ const ClubPage = () => {
                     <div className="">
                       <BlackDumbell />
                     </div>
-                    <div className="text-[#0f0f0e] text-xs font-black font-Inter leading-3">
+                    <div className="text-[#f8f8f8] text-xs font-black font-Inter leading-3">
                       {freeText3}
                     </div>
                   </div>
@@ -180,7 +180,7 @@ const ClubPage = () => {
                     <div className="">
                       <BlackCycle />
                     </div>
-                    <div className="text-[#0f0f0e] text-xs font-black font-Inter leading-3">
+                    <div className="text-[#f8f8f8] text-xs font-black font-Inter leading-3">
                       {freeText1}
                     </div>
                   </div>
@@ -193,7 +193,7 @@ const ClubPage = () => {
                     <div className="">
                       <BlackRunning />
                     </div>
-                    <div className="text-[#0f0f0e] text-xs font-black font-Inter leading-3">
+                    <div className="text-[#f8f8f8] text-xs font-black font-Inter leading-3">
                       {freeText2}
                     </div>
                   </div>

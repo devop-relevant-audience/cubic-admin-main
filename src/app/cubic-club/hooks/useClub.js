@@ -187,7 +187,7 @@ const useClub = () => {
         iconSrc: "/tick.png",
 
         confirmButtonClass:
-          "bg-gymx-blue text-cubic-black px-4 py-2 rounded-full w-[124px] h-[44px]",
+          "bg-gymx-blue text-[#f8f8f8] px-4 py-2 rounded-full w-[124px] h-[44px]",
         // other: {
         //   preConfirm: () => {
         //     console.log(`Delete product id: ${form._id}`);

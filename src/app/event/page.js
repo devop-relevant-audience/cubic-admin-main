@@ -63,10 +63,10 @@ const EventPage = () => {
               />
               <div className="bg bg-gymx-blue p-6 flex flex-col font-BebasNeue">
                 <div>
-                  <div className="text-[#0f0f0e] text-[24px] font-normal  uppercase leading-[32px] h-[58px]">
+                  <div className="text-[#f8f8f8] text-[24px] font-normal  uppercase leading-[32px] h-[58px]">
                     {club.name}
                   </div>
-                  <div className="flex space-x-2 items-center pt-2 text-cubic-black">
+                  <div className="flex space-x-2 items-center pt-2 text-[#f8f8f8]">
                     <div className="flex items-center space-x-3">
                       <PinIcon className={"w-8 h-8"} />
                       <div className=" text-lg ">{club.club}</div>

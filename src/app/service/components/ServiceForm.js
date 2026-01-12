@@ -149,7 +149,7 @@ const ServiceForm = ({ form, setForm, onChangeInput, tagOption, setField }) => {
 
       {/* Work out template */}
       <div className=" bg-cubic-gray2 w-full pb-11 pt-[25px] px-8  space-y-4">
-        <div className="text-center text-[#00aeef] text-5xl font-normal font-BebasNeue">
+        <div className="text-center text-gymx-blue text-5xl font-normal font-BebasNeue">
           workout template
         </div>
 
