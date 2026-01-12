@@ -8,7 +8,6 @@ const nextConfig = {
   env: {
     // declare here all your variables
     NEXT_PUBLIC_NODE_ENV: process.env.NEXT_PUBLIC_NODE_ENV,
-    NEXT_PUBLIC_BLOB_STORE_ID: process.env.NEXT_PUBLIC_BLOB_STORE_ID,
   },
   experimental: {
     serverActions: {

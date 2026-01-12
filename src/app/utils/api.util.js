@@ -1,12 +1,13 @@
 import { v4 as uuidv4 } from "uuid";
 import { uploadData } from "@/app/utils/uploadData.util";
 
-export const getBasePath = (key) => {
-  return `public/${key}`;
-};
+// Vercel Blob store ID
+const BLOB_STORE_ID = process.env.NEXT_PUBLIC_BLOB_STORE_ID || "eixgjw9tbjkoqu9g";
 
-// Vercel Blob store name
-const BLOB_STORE_ID = process.env.NEXT_PUBLIC_BLOB_STORE_ID || "";
+export const getBasePath = (key) => {
+  // For Vercel Blob, no prefix needed
+  return key;
+};
 
 export const getPathUrl = (key) => {
   // If it's already a full URL (Vercel Blob returns full URLs), return as-is
@@ -14,16 +15,11 @@ export const getPathUrl = (key) => {
     return key;
   }
   
-  // Legacy URLs from old storage (Cloudflare R2)
-  // return `https://celestial-storage.space/public/${key}`;
+  // Handle legacy keys that might have "public/" prefix
+  const cleanKey = key?.startsWith("public/") ? key.slice(7) : key;
   
   // Vercel Blob URL format: https://<store-id>.public.blob.vercel-storage.com/<path>
-  if (BLOB_STORE_ID) {
-    return `https://${BLOB_STORE_ID}.public.blob.vercel-storage.com/public/${key}`;
-  }
-  
-  // Fallback for legacy data
-  return `https://celestial-storage.space/public/${key}`;
+  return `https://${BLOB_STORE_ID}.public.blob.vercel-storage.com/${cleanKey}`;
 };
 
 export const getImgSrc = (file) => {
