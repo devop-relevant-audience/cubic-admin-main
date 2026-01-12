@@ -1,17 +1,28 @@
 import { v4 as uuidv4 } from "uuid";
 import { uploadData } from "@/app/utils/uploadData.util";
-import { Amplify } from "aws-amplify";
-import awsmobile from "@/config/aws.config";
-
-Amplify.configure(awsmobile);
 
 export const getBasePath = (key) => {
   return `public/${key}`;
 };
 
+// Vercel Blob store name
+const BLOB_STORE_ID = process.env.NEXT_PUBLIC_BLOB_STORE_ID || "";
+
 export const getPathUrl = (key) => {
-  // return `https://d2bqflr8m8bwzk.cloudfront.net/public/${key}`;
-  // return `https://pub-4c959168d8674c2186033baca9574e4c.r2.dev/public/${key}`;
+  // If it's already a full URL (Vercel Blob returns full URLs), return as-is
+  if (key?.startsWith("http://") || key?.startsWith("https://")) {
+    return key;
+  }
+  
+  // Legacy URLs from old storage (Cloudflare R2)
+  // return `https://celestial-storage.space/public/${key}`;
+  
+  // Vercel Blob URL format: https://<store-id>.public.blob.vercel-storage.com/<path>
+  if (BLOB_STORE_ID) {
+    return `https://${BLOB_STORE_ID}.public.blob.vercel-storage.com/public/${key}`;
+  }
+  
+  // Fallback for legacy data
   return `https://celestial-storage.space/public/${key}`;
 };
 
@@ -83,16 +94,15 @@ export const onImageUploadBefore = (files, info, core, uploadHandler) => {
 
     const keyUpload = `${uuidv4()}.${TypeFile[file.type]}`;
 
-    await uploadData({
-      // key: getBasePath(`${keyUpload}`),
-      key: keyUpload,
+    const uploadResult = await uploadData({
+      path: getBasePath(keyUpload),
       data: file,
     }).result;
 
     const responseUpload = {
       result: [
         {
-          url: getPathUrl(keyUpload),
+          url: uploadResult.url || getPathUrl(keyUpload),
           name: files[0].name,
           size: files[0].size,
         },

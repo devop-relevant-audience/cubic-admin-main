@@ -8,9 +8,7 @@ const nextConfig = {
   env: {
     // declare here all your variables
     NEXT_PUBLIC_NODE_ENV: process.env.NEXT_PUBLIC_NODE_ENV,
-    R2_ENDPOINT: process.env.R2_ENDPOINT,
-    R2_ACCESS_KEY_ID: process.env.R2_ACCESS_KEY_ID,
-    R2_SECRET_ACCESS_KEY: process.env.R2_SECRET_ACCESS_KEY,
+    NEXT_PUBLIC_BLOB_STORE_ID: process.env.NEXT_PUBLIC_BLOB_STORE_ID,
   },
   experimental: {
     serverActions: {
@@ -19,11 +17,27 @@ const nextConfig = {
   },
   reactStrictMode: false,
   images: {
-    domains: [
-      "d2bqflr8m8bwzk.cloudfront.net", // cloudfront
-      "cubicadminddb288dae560483ca52316caecbc358fe16e9-dev.s3.ap-southeast-1.amazonaws.com", // s3
-      "pub-4c959168d8674c2186033baca9574e4c.r2.dev",
-      "celestial-storage.space"
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "d2bqflr8m8bwzk.cloudfront.net", // cloudfront (legacy)
+      },
+      {
+        protocol: "https",
+        hostname: "cubicadminddb288dae560483ca52316caecbc358fe16e9-dev.s3.ap-southeast-1.amazonaws.com", // s3 (legacy)
+      },
+      {
+        protocol: "https",
+        hostname: "pub-4c959168d8674c2186033baca9574e4c.r2.dev", // R2 (legacy)
+      },
+      {
+        protocol: "https",
+        hostname: "celestial-storage.space", // R2 custom domain (legacy)
+      },
+      {
+        protocol: "https",
+        hostname: "*.public.blob.vercel-storage.com", // Vercel Blob
+      },
     ],
   },
 };
