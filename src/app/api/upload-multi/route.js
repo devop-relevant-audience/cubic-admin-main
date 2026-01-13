@@ -30,6 +30,7 @@ export async function POST(req) {
       access: "public",
       contentType: file.type,
       token: process.env.BLOB_READ_WRITE_TOKEN,
+      addRandomSuffix: false,
     });
 
     return new Response(

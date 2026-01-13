@@ -6,7 +6,7 @@ const api = axios.create({
   baseURL:
     ENV === "dev"
       ? "http://localhost:1337/api"
-      : "https://o7avsmcibk.execute-api.ap-southeast-1.amazonaws.com/dev/api", // Change to your amplify
+      : "https://admin.gymxclub.com/api", // Change to your amplify
 });
 
 export default api;
