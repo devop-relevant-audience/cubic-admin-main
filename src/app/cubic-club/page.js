@@ -39,7 +39,7 @@ const ClubPage = () => {
     >
       <div className="flex justify-between  w-full">
         <div className="text-white text-5xl font-normal font-BebasNeue">
-          cubic clubs
+          gymx clubs
         </div>
         <div
           className=" cursor-pointer"

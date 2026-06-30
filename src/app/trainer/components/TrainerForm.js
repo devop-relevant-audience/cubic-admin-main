@@ -62,7 +62,7 @@ const workoutTagOption = [
 ];
 
 const iconOption = [
-  { label: "cubic (Default)", value: "cubic" },
+  { label: "GymX (Default)", value: "cubic" },
   { label: "barbell", value: "barbell" },
   { label: "drumbell", value: "drumbell" },
   { label: "treadmill", value: "treadmill" },

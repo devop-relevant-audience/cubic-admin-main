@@ -21,7 +21,7 @@ const menuList = [
   },
   {
     path: "/cubic-club",
-    hover: "Cubic Clubs",
+    hover: "GymX Clubs",
   },
   {
     path: "/inquiry",
@@ -51,7 +51,7 @@ const Sidebar = ({ showSidebar, setShowSidebar }) => {
   const userSidebar = [
     {
       icon: "/user_icon.png",
-      hover: "Cubic Admin",
+      hover: "GymX Admin",
       onClick: () => {},
     },
     {
