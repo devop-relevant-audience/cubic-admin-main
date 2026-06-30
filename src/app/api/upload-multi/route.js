@@ -1,46 +1,28 @@
-import { put } from "@vercel/blob";
+import { handleUpload } from "@vercel/blob";
 
 export const runtime = "nodejs";
 
-// API Route (Next.js App Router) - Single or chunked upload
+// API Route (Next.js App Router) - Client upload token generation
+// The browser uploads files directly to Vercel Blob, bypassing this server
+// (and any reverse proxy body-size limits). This route only issues tokens.
 export async function POST(req) {
-  const formData = await req.formData();
-  const file = formData.get("file");
-  const path = formData.get("path") || file?.name || "unknown";
+  const body = await req.json();
 
-  if (!file) {
-    return new Response(JSON.stringify({ error: "No file uploaded" }), {
-      status: 400,
-    });
-  }
+  const jsonResponse = await handleUpload({
+    token: process.env.BLOB_READ_WRITE_TOKEN,
+    request: req,
+    body,
+    onBeforeGenerateToken: async (pathname, clientPayload, multipart) => {
+      return {
+        // Max file size 50MB
+        maximumSizeInBytes: 50 * 1024 * 1024,
+        addRandomSuffix: false,
+      };
+    },
+    onUploadCompleted: async (payload) => {
+      // No server-side action needed on completion
+    },
+  });
 
-  // Max file size 50MB
-  const maxSize = 50 * 1024 * 1024;
-  if (file.size > maxSize) {
-    return new Response(JSON.stringify({ error: "File too large" }), {
-      status: 400,
-    });
-  }
-
-  try {
-    const arrayBuffer = await file.arrayBuffer();
-    const buffer = Buffer.from(arrayBuffer);
-
-    const { url } = await put(path, buffer, {
-      access: "public",
-      contentType: file.type,
-      token: process.env.BLOB_READ_WRITE_TOKEN,
-      addRandomSuffix: false,
-    });
-
-    return new Response(
-      JSON.stringify({ url }),
-      { status: 200 }
-    );
-  } catch (err) {
-    console.error("Upload error:", err);
-    return new Response(JSON.stringify({ error: err.message }), {
-      status: 500,
-    });
-  }
+  return Response.json(jsonResponse);
 }
